@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="main-block">
+    {{ if and (not (eq .Params.post_image nil)) (not (eq .Params.post_image_display false))}}
+        <img class="post-image-inline" src="{{ .Params.post_image }}">
+    {{ end }}
+    {{ if not .Params.only_content }}
+        <div style="margin: {{ .Site.Params.site_margins }}px;">
+            <h1>{{ .Title }}</h1>
+            {{ if not .Params.hide_metadata }}
+            {{ partial "metadata.html" . }}
+            <br>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+    <!-- TODO -->
+    <!-- <div style="flex: 1; text-align: right;">
+        {{ if not (eq .Params.post_image nil) }}
+        <img style="height: 150px; width: auto; object-fit: cover;" src="{{ .Params.post_image }}">
+        {{ end }}
+    </div>-->
+    {{ .Content }}
+    </div>
+</div>
+{{ end }}

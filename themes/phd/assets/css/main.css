@@ -1,0 +1,178 @@
+@import "/css/color-palette-dark-autumn.css";
+
+:root {
+    --color-text: rgb(20, 20, 20);
+
+    --color-link: rgb(55, 45, 137);
+    --color-link-visited: rgb(50, 40, 130);
+    --color-link-hover: rgb(60, 50, 207);
+    --color-link-active: rgb(65, 55, 147);
+
+    --color-bg: rgb(255, 255, 255);
+    --color-bg-highlight: rgb(25,37,45);
+    --color-bg-post: rgb(196, 196, 196);
+    --color-fg-highlight: rgb(50,74,90);
+    --color-menu: rgb(214, 214, 214);
+
+    --color-tag-bg: var(--color-bg);
+    --color-tag-text: var(--color-link);
+    --color-text-tag-btn: var(--color-link);
+    
+    --color-tag-btn-bg-hover: white;
+    --color-tag-btn-text-hover: black;
+
+    --font-family: "Verdana", sans-serif;
+    --font-family-fallback: 'Arial', sans-serif;
+}
+
+html, body {
+    background-color: var(--color-bg);
+    background-size: 30%;
+    color: var(--color-text);
+    font-family: var(--font-family);
+}
+
+.background-menu {
+    width: 100%;
+    background: var(--color-menu);
+}
+
+.background-default {
+    background: var(--color-bg);
+}
+
+main {
+    margin: 10px;
+    color: var(--color-text);
+}
+
+footer {
+    color: var(--color-text);
+    background: var(--color-menu);
+    padding: 2px;
+    width: 100%;
+    color: var(--color-text);
+    text-align: center;
+}
+
+a {
+    color: var(--color-link);
+}
+
+a:hover {
+    color: var(--color-link-hover);
+}
+
+body { 
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+.header {
+    overflow: hidden;
+    background-color: var(--color-menu);
+}
+
+.header a {
+    float: left;
+    color: var(--color-link);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+}
+
+.header a:hover {
+    background-color: var(--color-bg);
+    color: var(--color-link-hover);
+}
+
+.header a.active {
+    background-color: var(--color-bg);
+    color: var(--color-link-active);
+}
+
+.header-right {
+    float: right;
+}
+
+blockquote {
+    font-size:larger;
+    font-style: italic;
+    padding-top: 22px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    background: var(--color-bg-highlight);
+    border-left: 10px solid var(--color-fg-highlight);
+}
+
+img {
+    width: 100%;
+}
+
+.post-style {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background: var(--color-bg-post);
+}
+
+.post_image {
+    object-fit: cover;
+    transition: opacity .35s , transform .35s;
+    transform: scale3d(1.05, 1.05, 1.0);
+}
+
+.post_image:hover {
+    transform: scale3d(1,1,1);
+    opacity: 0.8;
+}
+
+.post_image_container {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main-block {
+    max-width: var(--content-width);
+    margin: auto;
+}
+
+.center-content {
+    max-width: var(--content-width);
+    margin: auto;
+}
+
+.tag-btn {
+    color: var(--color-text-tag-btn);
+    background: var(--color-tag-bg);
+    padding-top: 2px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.tag-btn:active {
+    color: var(--color-text-tag-btn);
+}
+
+.tag-btn:visited {
+    color: var(--color-text-tag-btn);
+}
+
+.tag-btn:hover {
+    color: var(--color-tag-btn-text-hover);
+    background: var(--color-tag-btn-bg-hover);
+}
+
+th, td {
+    padding-inline: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}

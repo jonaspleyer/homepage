@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div style="justify-content: center;">
+    <div style="margin: {{ .Site.Params.site_margins }}px;">
+        {{ .Content }}
+
+        <h2>Latest Posts</h2>
+        {{- partial "list-partial.html" (dict "context" . "pages" ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "posts") "rows" .Site.Params.main_page_post_rows) -}}
+
+        <h2>Latest Publications</h2>
+        {{- partial "list-partial.html" (dict "context" . "pages" ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "publications" ) "rows" .Site.Params.main_page_publication_rows) -}}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,34 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 30
+
+# Allows for rendering raw html
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+# Enable or disable math rendering with KaTeX
+math = true
+social_icons = true
+
+site_max_width = 1200
+site_margins = 20
+
+post_max_width = 900
+main_page_post_rows = 6
+main_page_publication_rows = 6

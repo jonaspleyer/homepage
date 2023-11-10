@@ -1,0 +1,72 @@
+<!--
+Parameters
+
+.context
+    The site we are currently on just given by .
+.pages
+    The pages which should be rendered
+.rows
+    The number of rows which should be display.
+    If not given arbitrary many are displayed.
+-->
+
+<div style="
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;"
+>
+
+<div
+    class="grid-container"
+    style="
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax({{.context.Site.Params.post_max_width}}px, 1fr));
+        justify-content: center;
+        {{ if not (eq .rows nil)}}
+            {{ printf "grid-template-rows:"}}
+            {{ range $num:= (seq .rows)}}
+            {{ printf " auto"}}
+            {{end}};
+            grid-auto-rows: 0px;
+            position: relative;
+            overflow: hidden;
+        {{ end }}
+    "
+>
+
+{{- range .pages }}
+
+<div class="post-style" style="text-align: center;">
+    {{ if .Params.post_image }}
+    <div style="display:grid; grid-template-columns: 40% 58%; gap: 2%;">
+    <figure style="margin: 0;">
+    <a href="{{ .RelPermalink }}">
+    <div class="post_image_container">
+        <img
+            class="post_image"
+            src="{{ .RelPermalink }}/{{ .Params.post_image }}"
+            style="display: block; text-decoration: none;"
+        >
+        </div>
+    </a>
+    </figure>
+    {{ end }}
+    <div style="text-align: left;">
+        <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ partial "metadata.html" . }}
+        <div class="summary">
+                {{ if not (eq .Params.description nil) }}
+                    <p>{{ .Params.description }}</p>
+                {{ else }}
+                    <p>{{ .Summary }}</p>
+                {{ end }}
+            <!--<p>{{ .Summary }}</p>-->
+        </div>
+    </div>
+    </div>
+</div>
+
+{{ end }}
+
+</div>
+</div>

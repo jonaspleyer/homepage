@@ -1,0 +1,7 @@
+{{ define "main" }}
+<div class="main-block">
+    <div style="margin: {{ .Site.Params.site_margins }}px;">
+        {{- partial "list-partial.html" (dict "context" . "pages" .Pages.ByPublishDate.Reverse "filter" "posts") -}}
+    </div>
+</div>
+{{ end }}
