@@ -24,6 +24,7 @@ only_content = true
 
 |      |    |    |
 | ---- | -- | -- |
+| 2024 SS | [Theoretische Physik 3](https://www.physik.uni-freiburg.de/studium/vorlesungsverzeichnis/kmvrls24.htm#Theo_III) | Tutor |
 | 2023 WS | [Experimentalphysik 1](https://www.physik.uni-freiburg.de/studium/vorlesungsverzeichnis/kmvrlw23.htm#Ex_I) | Tutor |
 | 2022 SS | [Einführung in die Systembiologie](https://www.spatialsysbio.uni-freiburg.de/teaching/2022-ss-einfuhrung-in-die-systembiologie) | Tutor |
 | 2021 WS | [Analysis 3](https://home.mathematik.uni-freiburg.de/ngrosse/teaching/Vorlesungen/AnalysisIII.html) | Tutor |
@@ -36,6 +37,7 @@ only_content = true
 # Conferences
 |    |    |    |
 | -- | -- | -- |
+| 2024 | [SFB 1381 Retreat](https://www.sfb1381.uni-freiburg.de/) | Shared Poster |
 | 2023 | [9th bwHPC Symposium](https://indico.scc.kit.edu/event/3635/)  | Poster |
 | 2023 | [Scientific Computing in Rust 2023](https://scientificcomputing.rs/)  | Attendance |
 | 2023 | [Physics of Life](https://www.physicsoflife.org.uk/physics-of-life-2023.html) | Poster, awarded “Best Student Poster” |
