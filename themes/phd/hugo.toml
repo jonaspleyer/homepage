@@ -26,9 +26,10 @@ unsafe = true
 math = true
 social_icons = true
 
-site_max_width = 1200
+site_max_width = 1000
 site_margins = 20
 
-post_max_width = 900
-main_page_post_rows = 6
-main_page_publication_rows = 6
+post_max_width = 400
+main_page_post_rows = 4
+main_page_publication_rows = 2
+main_page_software_rows = 2

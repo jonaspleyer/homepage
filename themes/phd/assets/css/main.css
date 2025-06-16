@@ -93,6 +93,11 @@ body {
     color: var(--color-link-active);
 }
 
+.header a.ancestor {
+    background-color: var(--color-bg);
+    color: var(--color-link-visited);
+}
+
 .header-right {
     float: right;
 }
@@ -137,7 +142,7 @@ img {
 }
 
 .main-block {
-    max-width: var(--content-width);
+    max-width: var(min(--content-width, 678px));
     margin: auto;
 }
 

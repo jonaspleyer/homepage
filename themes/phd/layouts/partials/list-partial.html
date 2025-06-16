@@ -20,7 +20,9 @@ Parameters
     class="grid-container"
     style="
         display:grid;
-        grid-template-columns: repeat(auto-fit, minmax({{.context.Site.Params.post_max_width}}px, 1fr));
+        grid-template-columns: repeat(auto-fit,
+            minmax({{.context.Site.Params.post_max_width}}px, 1fr));
+        );
         justify-content: center;
         {{ if not (eq .rows nil)}}
             {{ printf "grid-template-rows:"}}
@@ -38,13 +40,12 @@ Parameters
 
 <div class="post-style" style="text-align: center;">
     {{ if .Params.post_image }}
-    <div style="display:grid; grid-template-columns: 40% 58%; gap: 2%;">
     <figure style="margin: 0;">
     <a href="{{ .RelPermalink }}">
     <div class="post_image_container">
         <img
             class="post_image"
-            src="{{ .RelPermalink }}/{{ .Params.post_image }}"
+            src="{{ if (eq .Params.post_image_is_link true) }}{{ .Params.post_image }}{{ else }}{{ .RelPermalink }}/{{ .Params.post_image }}{{ end }}"
             style="display: block; text-decoration: none;"
         >
         </div>
@@ -62,7 +63,6 @@ Parameters
                 {{ end }}
             <!--<p>{{ .Summary }}</p>-->
         </div>
-    </div>
     </div>
 </div>
 

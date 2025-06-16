@@ -1,0 +1,11 @@
+<div style="display: grid; grid-template-columns: 400px auto;">
+    <div style="text-align: center;">
+        <img
+            src="{{ .Get "img" }}"
+            style="width: 300px; border-radius: 100%; border: 2px solid var(--color-border-post);"
+        >
+    </div>
+    <div>
+        {{ .Inner }}
+    </div>
+</div>

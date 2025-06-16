@@ -1,7 +1,22 @@
 {{ define "main" }}
 <div class="main-block">
-    <div style="margin: {{ .Site.Params.site_margins }}px;">
-        {{- partial "list-partial.html" (dict "context" . "pages" .Pages.ByPublishDate.Reverse "filter" "posts") -}}
-    </div>
+    <!-- insert content before listed elements -->
+    {{ if not ( eq .Params.listed_before_content true ) }}
+        {{ .Content }}
+    {{ end }}
+
+    <!-- insert listed elements -->
+    {{ if not ( .Params.hide_listed) }}
+        <div>
+            {{- partial "list-partial.html" (
+                dict "context" . "pages" .Pages.ByPublishDate.Reverse "filter" "posts"
+            ) -}}
+        </div>
+    {{ end }}
+
+    <!-- insert content after listed elements -->
+    {{ if ( eq .Params.listed_before_content true ) }}
+        {{ .Content }}
+    {{ end }}
 </div>
 {{ end }}

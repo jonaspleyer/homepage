@@ -1,3 +1,13 @@
 {{ define "main" }}
-  {{ .Content }}
+        {{ .Content }}
+
+<h2>Latest Posts</h2>
+{{- partial "list-partial.html" (dict "context" . "pages" ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "posts" | first .Site.Params.main_page_post_rows ) "rows" .Site.Params.main_page_post_rows) -}}
+
+<h2>Latest Publications</h2>
+{{- partial "list-partial.html" (dict "context" . "pages" ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "publications" | first .Site.Params.main_page_publication_rows ) "rows" .Site.Params.main_page_publication_rows) -}}
+
+<h2>Latest Software</h2>
+{{- partial "list-partial.html" (dict "context" . "pages" ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "software" | first .Site.Params.main_page_publication_rows ) "rows" .Site.Params.main_page_software_rows) -}}
+
 {{ end }}

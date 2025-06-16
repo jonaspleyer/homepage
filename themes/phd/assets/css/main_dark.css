@@ -14,13 +14,14 @@
     --color-bg: #0d1117;
     --color-bg-highlight: rgb(25,37,45);
     --color-bg-post: rgb(50, 40, 50);
+    --color-border-post: #777;
     --color-fg-highlight: rgb(50,74,90);
     --color-menu: black;
 
     --color-tag-bg: black;
     --color-tag-text: white;
     --color-text-tag-btn: var(--color-text-primary);
-    
+
     --color-tag-btn-bg-hover: white;
     --color-tag-btn-text-hover: black;
 
@@ -46,6 +47,8 @@ html, body {
 
 .background-default {
     background: var(--color-bg);
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 main {
@@ -98,6 +101,7 @@ body {
     text-decoration: none;
     font-size: 18px; 
     line-height: 25px;
+    border-bottom: solid 5px var(--color-menu);
 }
 
 .header a:hover {
@@ -111,6 +115,12 @@ body {
     background-color: var(--color-bg);
     color: var(--color-link-active);
     border-bottom: solid 5px var(--color-link-visited);
+}
+
+.header a.ancestor {
+    background-color: var(--color-bg);
+    color: var(--color-link-active);
+    border-bottom: solid 5px var(--color-link-menu-hover);
 }
 
 .header-right {
@@ -138,7 +148,7 @@ img {
     margin: 10px;
     padding: 15px;
     border-radius: 5px;
-    border: solid 1px;
+    border: solid 1px var(--color-border-post);
     /* background: var(--color-bg-post);*/
 }
 

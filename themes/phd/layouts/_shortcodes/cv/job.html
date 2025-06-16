@@ -1,0 +1,21 @@
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
+    <div style="text-align: left;">
+        <p>
+            <strong>{{ .Get "title" }}</strong>
+            <br>
+            <i>{{ .Get "employer" }}</i>
+        </p>
+    </div>
+    <div style="text-align: right;">
+        <p>
+            <i>
+                Freiburg im Breisgau
+                <br>
+                since 08/2021
+            </i>
+        </p>
+    </div>
+</div>
+
+
+{{ .Inner }}

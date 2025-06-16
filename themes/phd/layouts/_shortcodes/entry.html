@@ -1,0 +1,42 @@
+{{ $colwidth := "0px" }}
+{{ $style := .Get "style" | default "" }}
+{{ with (.Get "style") }}
+    {{ $colwidth = "4px" }}
+{{ end }}
+
+
+
+<div style="display: grid; grid-template-columns: {{ $colwidth }} auto; column-gap: {{ $colwidth }}">
+    <div style="height: 100%; width: {{ $colwidth }};">
+        {{ (printf "<div style=\"height:100%%;width:%s;%s\"></div>" $colwidth $style) | safeHTML }}
+    </div>
+    <div>
+        <div style="display: grid; grid-template-columns: auto auto;">
+            <div style="text-align: left;">
+                <div>
+                    {{ $employer := (.Get "employer") }}
+                    {{ with (.Get "title") }}
+                        <strong>{{ . }}</strong>
+                        <!-- If employer is set, insert linebreak -->
+                        {{ with $employer }}<br>{{ end }}
+                    {{ end }}
+                    <i>{{ $employer }}</i>
+                </div>
+            </div>
+            <div style="text-align: right;">
+                <div>
+                    <i>
+                        {{ $date := (.Get "date") }}
+                        {{ with (.Get "location")}}
+                            {{ . }}
+                            <!-- If date is set, insert linebreak -->
+                            {{ with $date }}<br>{{ end }}
+                        {{ end }}
+                        {{ $date }}
+                    </i>
+                </div>
+            </div>
+        </div>
+        {{ .Inner }}
+    </div>
+</div>
