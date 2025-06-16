@@ -6,7 +6,7 @@ description = "Short CV in Tabular Form"
 +++
 
 <style>
-h1,h2 {
+h1,h2,h3 {
     padding-bottom: 8px;
     margin-bottom: 8px;
     border-bottom: solid 1px var(--color-border-post);
@@ -14,7 +14,7 @@ h1,h2 {
 </style>
 
 I am a software engineer trapped in the career of a scientist, always aiming to extend existing
-functionality or write new libraries.
+functionality or to write new libraries.
 I care about functionality, quality and team spirit.
 To me, any temporary solution is undesirable.
 
@@ -149,6 +149,12 @@ and [WrapVTK](https://vtk.org) to automate boilerplate generation of the binding
 %}}{{% /entry %}}{{< /wrap >}}
 
 {{< wrap >}}{{% entry
+    title = "University of Freiburg"
+    employer = "MSc. Physics"
+    date = "04/2020 - 07/2021"
+%}}{{% /entry %}}{{< /wrap >}}
+
+{{< wrap >}}{{% entry
     title = "Heidelberg University"
     employer = "MSc. Physics"
     date = "04/2018 - 04/2020"
@@ -171,3 +177,76 @@ and [WrapVTK](https://vtk.org) to automate boilerplate generation of the binding
     employer = "Elementary School"
     date = "09/2001 - 06/2005"
 %}}{{% /entry %}}{{< /wrap >}}
+
+## Publications
+
+## Further Commitment
+
+### iGEM
+
+{{< wrap >}}{{% entry
+    title = "Supervisor"
+    date = "2023 - 2024"
+%}}
+**2024**<br>
+Top 10 Overgrad, Gold Medal, Best Infectious Diseases, Nominated
+for: Best Wiki, Best Presentation, best Integrated Human Practices,
+Best Measurement, Best Composite Part
+
+**2023**<br>
+Top 10 Overgrad, Gold Medal, Nominated for: Best Foundational
+Advance Project, Best New Composite Part, Best Wiki
+
+{{% /entry %}}{{< /wrap >}}
+
+### Badminton
+
+{{< wrap >}}{{% entry
+    title = "State-recognized Coach for the competitive Sport Badminton License level B"
+    employer = "Deutscher Badminton Verband (DBV)"
+    date = "2019"
+%}}{{% /entry %}}{{< /wrap >}}
+
+{{< wrap >}}{{% entry
+    title = "State-recognized Coach for the competitive Sport Badminton License level C"
+    employer = "Deutscher Badminton Verband (DBV)"
+    date = "2018"
+%}}{{% /entry %}}{{< /wrap >}}
+
+{{< wrap >}}{{% entry
+    title = "Honorary Trainer of Children and Adults"
+    employer = "FT Freiburg 1844"
+    date = "since 01/2020"
+%}}{{% /entry %}}{{< /wrap >}}
+
+{{< wrap >}}{{% entry
+    title = "Honorary Trainer of Children and Adults"
+    employer = "TSG Wiesloch"
+    date = "2016 - 2019"
+%}}{{% /entry %}}{{< /wrap >}}
+
+### Camp KjG Wiesloch
+
+{{< wrap >}}{{% entry
+    title = "Board Member (Lagerleitung)"
+    employer = "KjG Wiesloch"
+    date = "11/2020 - 11/2021"
+%}}{{% /entry %}}{{< /wrap >}}
+
+{{< wrap >}}{{% entry
+    title = "Active honorary member in organizing and conducting the yearly camp and further events"
+    employer = "KjG Wiesloch"
+    date = "10/2011 - 01/2024"
+%}}{{% /entry %}}{{< /wrap >}}
+
+### FIRST LEGO League
+
+{{< wrap >}}{{% entry
+    title = "Participation at Competitions of the \"FIRST LEGO League\""
+    employer = "Nemo Kids"
+    date = "2008 - 2011"
+%}}
+**2011** 7th in Germany
+
+**2010** 3rd in Germany, 9th in Europe
+{{% /entry %}}{{< /wrap >}}
