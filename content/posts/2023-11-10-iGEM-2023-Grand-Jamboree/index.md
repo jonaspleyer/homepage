@@ -5,7 +5,8 @@ post_image = "group-picture-jamboree-end.jpg"
 tags = ['Biology', 'Science']
 +++
 
-Over the past months I was supervising and helping the current iGEM Team from Freiburg in their Journey towards the [Grand Jamboree](http://igem.org: https://jamboree.igem.org/2023/home).
+Over the past months I was supervising and helping the current iGEM Team from Freiburg in their
+Journey towards the [Grand Jamboree](https://jamboree.igem.org/2023/home).
 This weekend, we finally had the opportunity to present our work – CELLECT.
 
 I encourage everyone to read the full story on the [wiki](https://2023.igem.wiki/freiburg/) of our team.
