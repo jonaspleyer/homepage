@@ -11,22 +11,27 @@ weight = 10
 
 [[menus.main]]
 name = 'Posts'
-pageRef = '/posts'
+pageRef = '/posts/'
 weight = 20
 
 [[menus.main]]
 name = 'Publications'
-pageRef = '/publications'
+pageRef = '/publications/'
 weight = 30
 
 [[menus.main]]
+name = 'Software'
+pageRef = '/software/'
+weight = 35
+
+[[menus.main]]
 name = "Profile"
-pageRef = '/profile'
+pageRef = '/profile/'
 weight = 40
 
 [[menus.main]]
 name = "CV"
-pageRef = '/cv'
+pageRef = '/cv/'
 weight = 50
 
 [[menus.social_icons]]
