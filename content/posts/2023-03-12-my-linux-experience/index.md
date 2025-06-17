@@ -3,6 +3,7 @@ title = 'My Linux Experience'
 date = 2023-03-12T01:07:00+02:00
 post_image = "33718-1-cropped.jpg"
 tags = ['Programming', 'Science']
+aliases = ['/blog/2023/03/12/my-linux-experience/']
 +++
 
 If you are part of the scientific community, you must have heard of Linux. This small post is not meant to capture everything good and bad or even everything important there is to know about GNU, Linux and many of the other open source projects out there. It is simply my story and view and why it is my preferred operating system. Feel free to jump to the end to skip my personal story.

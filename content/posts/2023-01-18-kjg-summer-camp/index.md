@@ -3,6 +3,7 @@ title = 'Kjg Summer Camp'
 date = 2023-01-18T23:32:00+02:00
 post_image = "DSC_0134.JPG"
 tags = ['Personal']
+aliases = ['/blog/2023/01/18/summer-camp/']
 +++
 
 Back in 2007, I was first introduced to the summer camp of the KjG Wiesloch (Katholische Junge Gemeinde, community of young Catholics). The camp lasts for 2 weeks and is held in the first weeks of the summer holidays. At first I was rather unwilling to go since I did not really know many people there. You are not allowed to bring mobile phones or other electronic devices (maybe apart from a digital watch (no smart watch)). The only way of communicating is to by sending letters. And so I wrote a letter to my parents after being there for a week. I was complaining and frustrated with everything. However, my parents were extremely surprised to see that after I had returned from camp, liked it very much and had completely forgotten that I had written this letter. From thereon, my brother and I went every year.

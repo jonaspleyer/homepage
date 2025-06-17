@@ -3,6 +3,7 @@ title = 'Scientific Computing in Rust 2023'
 date = 2023-05-22T10:04:00+02:00
 post_image = "ferris-scientific-computing-1536x1147.png"
 tags = ['Math', 'Programming', 'Science']
+aliases = ['/blog/2023/07/19/scientifc-computing-in-rust-2023']
 +++
 
 Last week I attended the [Scientific Computing in Rust 2023](https://scientificcomputing.rs/) virtual conference. The organizers put together a well-stirred mixture of talks covering a wide range of topics. It was good to see so many other enthusiastic researchers using [Rust](https://www.rust-lang.org/) as their main tool to build software surrounding computational needs.

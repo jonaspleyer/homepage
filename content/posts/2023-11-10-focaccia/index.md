@@ -3,6 +3,7 @@ title = 'Mein geheimes Focaccia Rezept'
 date = 2023-11-10T17:00:00+02:00
 post_image = "photo_1_2023-11-10_23-30-05.jpg"
 tags = ['Personal']
+aliases = ['/blog/2023/11/10/mein-geheimes-focaccia-rezept/']
 +++
 
 In der letzten Zeit wurde ich immer öfter nach meinem Focaccia-Rezept gefragt.

@@ -3,6 +3,7 @@ title = 'First LEGO League'
 date = 2023-05-22T10:04:00+02:00
 post_image = "AP_20090927_185537_IMG_4148.jpg"
 tags = ['Personal', 'Science']
+aliases = ['/blog/2023/05/22/first-lego-league/']
 +++
 
 During my years in school, I participated in the then very new First LEGO League. My brother and me were joining an already existing team, called the “SAP Nemo Kids” (SAP being the Sponsor of the Tournament at our location) and it immediately caught me by full force. This contest consists of multiple disciplines. While the Robot Game is probably well known, there is also the Core Values, which we just called Teamwork. In addition the Robot Design judges design and implementation of the Robot itself. And finally, there is also the Project, which is held in the spirit of the yearly theme. In this discipline, a team will prepare a short talk on a topic which was previously researched.

@@ -3,6 +3,7 @@ title = 'Farewell KjG Summer Camp'
 date = 2023-08-15T18:27:00+02:00
 post_image = "kjg-zeltlager-2023-rainbow.jpeg"
 tags = ['Personal']
+aliases = ['/blog/2023/08/15/farewell-kjg-summer-camp/']
 +++
 
 (See german version below) I have decided to step back from actively participating in the organization surrounding the [KjG Summer camp in Wiesloch](https://kjg-wiesloch.de/) for future events.

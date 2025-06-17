@@ -4,6 +4,7 @@ date = 2023-10-17T23:32:00+02:00
 post_image = "typst.png"
 tags = ['Programming', 'Science']
 math = true
+aliases = ["/blog/2023/10/17/how-i-create-posters-with-typst/"]
 +++
 
 I recently came across a new typesetting system called typst.

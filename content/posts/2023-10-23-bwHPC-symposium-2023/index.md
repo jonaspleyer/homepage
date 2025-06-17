@@ -3,6 +3,7 @@ title = 'bwHPC Symposium 2023'
 date = 2023-10-23T17:00:00+02:00
 post_image = "symposium-logo.png"
 tags = ['Programming', 'Rust', 'Science']
+aliases = ['/blog/2023/10/23/bwhpc-symposium-2023/']
 +++
 
 Today, I was at the [bwHPC Symposium](https://indico.scc.kit.edu/event/3635/overview) in Mannheim.

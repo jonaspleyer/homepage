@@ -5,6 +5,7 @@ post_image = "physics-of-life-logo-cropped.jpg"
 tags = ['Biology', 'Math', 'Science', 'Physics']
 # TODO
 description = "I was at the physics of life conference this week"
+aliases = ['/blog/2023/03/31/physics-of-life-conference/']
 +++
 
 This week I had the opportunity to participate at the [Physics of Life conference](https://www.physicsoflife.org.uk/physics-of-life-2023.html) in Harrogate (UK). The conference covers a wide variety of subjects, ranging from single cells, tissues to evolution to name just a few. While the way from Freiburg to Harrogate can be challenging, we got there eventually and checked in at our hotel. The conference was organized very nicely finding a good balance between longer keynotes with many details and shorter talks in separate sessions which were held under a particular topic (eg. Differentiation and development) and coffee breaks in between. Apart from listening to other people and enjoying their work early career researchers as myself were especially encouraged to participate, ask questions and engage in the conversation. I truly enjoyed the atmosphere that was thereby created.

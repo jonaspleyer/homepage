@@ -3,6 +3,7 @@ title = 'iGEM 2023 – Grand Jamboree'
 date = 2023-11-10T17:00:00+02:00
 post_image = "group-picture-jamboree-end.jpg"
 tags = ['Biology', 'Science']
+aliases = ['/blog/2023/11/10/igem-2023-grand-jamboree/']
 +++
 
 Over the past months I was supervising and helping the current iGEM Team from Freiburg in their

@@ -4,6 +4,7 @@ date = 2023-12-09T17:00:00+02:00
 post_image = "AP_20210410_153701_IMG_7681.jpg"
 tags = ['Programming', 'Rust']
 description = "A naive and hopefully intuitive explanation of ownership rules in Rust."
+aliases = ['/blog/2023/12/09/ownership-in-rust-yet-another-explanation/']
 +++
 
 Rust is a very popular programming language for many good reasons.
