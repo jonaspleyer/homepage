@@ -25,6 +25,21 @@
 
     --font-family: "Verdana", sans-serif;
     --font-family-fallback: 'Arial', sans-serif;
+
+    /* NEW SETTINGS */
+    --color-text-primary: rgb(240, 240, 240);
+    --color-text-secondary: rgb(180, 180, 180);
+    --color-text-menu: rgb(187, 85, 85);
+
+    --color-link: #BF616A;
+    --color-link-visited: #BF616A;
+    --color-link-menu-hover: #C5727A;
+    --color-link-hover: #C5727A;
+    --color-link-active: #B74E58;
+
+    /* --color-bg: #191D24;
+    --color-bg-highlight: #222630;*/
+    --color-bg-post: #1E222A;
 }
 
 h1, h2, h3, h4 {
@@ -147,7 +162,7 @@ img {
     padding: 15px;
     border-radius: 5px;
     border: solid 1px var(--color-border-post);
-    /* background: var(--color-bg-post);*/
+     background: var(--color-bg-post);
 }
 
 .post_image {
