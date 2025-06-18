@@ -88,6 +88,11 @@ weight = 60
 [[menus.social_icons.Params]]
 fa_class = "fa fa-rss-square"
 
+[params]
+[params.author]
+email = "jonas.dev@pleyer.org"
+name = "Jonas Pleyer"
+
 # Allows for rendering raw html
 [markup.goldmark.renderer]
 unsafe = true
