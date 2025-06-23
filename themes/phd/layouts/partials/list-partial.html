@@ -21,7 +21,7 @@ Parameters
     style="
         display:grid;
         grid-template-columns: repeat(auto-fit,
-            minmax({{.context.Site.Params.post_max_width}}px, 1fr));
+            min(100%, minmax({{.context.Site.Params.post_max_width}}px, 1fr)));
         );
         justify-content: center;
         {{ if not (eq .rows nil)}}

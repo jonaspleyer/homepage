@@ -162,7 +162,7 @@ img {
     padding: 15px;
     border-radius: 5px;
     border: solid 1px var(--color-border-post);
-     background: var(--color-bg-post);
+    background: var(--color-bg-post);
 }
 
 .post_image {
@@ -236,4 +236,9 @@ table {
 th, td {
     padding-inline: 10px;
     border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.authorhead {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
 }
