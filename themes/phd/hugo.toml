@@ -29,7 +29,7 @@ social_icons = true
 site_max_width = 1000
 site_margins = 20
 
-post_max_width = 400
+post_min_width = 350
 main_page_post_rows = 4
 main_page_publication_rows = 2
 main_page_software_rows = 2
