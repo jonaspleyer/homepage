@@ -31,11 +31,40 @@
     --color-text-secondary: rgb(180, 180, 180);
     --color-text-menu: rgb(187, 85, 85);
 
+    /* Reds */
     --color-link: #BF616A;
     --color-link-visited: #BF616A;
     --color-link-menu-hover: #C5727A;
     --color-link-hover: #C5727A;
     --color-link-active: #B74E58;
+
+    /* Blues
+    --color-link: #81A1C1;
+    --color-link-visited: #81A1C1;
+    --color-link-menu-hover: #88C0D0;
+    --color-link-hover: #88C0D0;
+    --color-link-active: #5E81AC;*/
+
+    /* Yellow
+    --color-link: #EBCB8B;
+    --color-link-visited: #EBCB8B;
+    --color-link-menu-hover: #EFD49F;
+    --color-link-hover: #EFD49F;
+    --color-link-active: #E7C173;*/
+
+    /* Greens
+    --color-link: #A3BE8C;
+    --color-link-visited: #A3BE8C;
+    --color-link-menu-hover: #B1C89D;
+    --color-link-hover: #B1C89D;
+    --color-link-active: #97B67C; */
+
+    /* Magentas
+    --color-link: #B48EAD;
+    --color-link-visited: #B48EAD;
+    --color-link-menu-hover: #BE9DB8;
+    --color-link-hover: #BE9DB8;
+    --color-link-active: #A97EA1; */
 
     /* --color-bg: #191D24;
     --color-bg-highlight: #222630;*/
