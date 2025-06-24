@@ -4,6 +4,7 @@ date = 2024-03-14
 link = "https://github.com/jonaspleyer/circ-buffer"
 link_display = "github.com/jonaspleyer/circ-buffer"
 post_image = "circ-buffer-scheme.png"
+post_image_display = false
 tags = ['Rust']
 description = "A no_std crate for a fixed-size statically allocated ring-buffer with optional serde (De)-Serialization."
 +++
