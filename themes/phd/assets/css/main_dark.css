@@ -282,6 +282,10 @@ th, td {
 @media screen and (max-width:800px) {
     .toggle {
         display: inline;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
         background: none;
         border: 2px white;
         line-height: 25px;
