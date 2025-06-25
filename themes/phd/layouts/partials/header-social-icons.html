@@ -35,9 +35,9 @@
 {{- define "partials/inline/header-social-icons/walk.html" }}
     {{- $page := .page }}
     {{- range .menuEntries }}
-        {{- $attrs := dict "href" .URL "class" "svg_icon"}}
+        {{- $attrs := dict "href" .URL "class" "menu-item svg_icon"}}
         {{ if not (eq .Params.fa_class nil) }}
-            {{- $attrs = merge $attrs (dict "class" .Params.fa_class) }}
+            {{- $attrs = merge $attrs (dict "class" (print .Params.fa_class " menu-item")) }}
         {{ end }}
         <a
         {{- range $k, $v := $attrs }}

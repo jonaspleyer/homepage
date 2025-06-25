@@ -134,7 +134,7 @@ body {
     overflow: hidden;
 }
 
-.header a {
+.menu-item {
     float: left;
     color: var(--color-link);
     fill: var(--color-link);
@@ -146,20 +146,20 @@ body {
     border-bottom: solid 5px var(--color-menu);
 }
 
-.header a:hover {
+.menu-item:hover {
     background-color: var(--color-bg);
     color: var(--color-link-hover);
     fill: var(--color-link-hover);
     border-bottom: solid 5px var(--color-link-menu-hover);
 }
 
-.header a.active {
+.menu-item.active {
     background-color: var(--color-bg);
     color: var(--color-link-active);
     border-bottom: solid 5px var(--color-link-visited);
 }
 
-.header a.ancestor {
+.menu-item.ancestor {
     background-color: var(--color-bg);
     color: var(--color-link-active);
     border-bottom: solid 5px var(--color-link-menu-hover);
