@@ -267,6 +267,40 @@ th, td {
     border-bottom: 1px solid rgba(255,255,255,0.3);
 }
 
+.toggle {
+    display: none;
+    float: left;
+}
+
+.toggle .menu-button-line {
+    height: 3px;
+    width: 25px;
+    background: var(--color-link);
+    margin: 5px 0;
+}
+
+@media screen and (max-width:800px) {
+    .toggle {
+        display: inline;
+        background: none;
+        border: 2px white;
+        line-height: 25px;
+    }
+
+    .open a {
+        display: block;
+        width: 100%;
+    }
+
+    .closed a {
+        display: none;
+    }
+
+    .menu-item:hover {
+        border-bottom: none;
+    }
+}
+
 .authorhead {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));

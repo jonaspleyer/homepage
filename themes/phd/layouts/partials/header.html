@@ -1,5 +1,10 @@
-<div class="header">
-    <div class="header-left">
+<div id="header" class="header">
+    <div id="header-left" class="header-left">
+        <button id="toggle" class="toggle menu-item">
+            <div class="menu-button-line"></div>
+            <div class="menu-button-line"></div>
+            <div class="menu-button-line"></div>
+        </button>
         {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
     </div>
 
@@ -10,3 +15,30 @@
     {{ end }}
 </div>
 
+<script>
+(function (d) {
+    "use strict";
+
+    var myToggle = d.getElementById("toggle");
+    var toggleParent = d.getElementById("header-left");
+    toggleParent.classList.toggle("closed");
+
+    myToggle.addEventListener(
+        "click",
+        function () {
+            toggleParent.classList.toggle("open");
+            toggleParent.classList.toggle("closed");
+        },
+        false
+    );
+
+    function linksClickHandler(evt) {
+        toggleParent.classList.remove("open");
+    }
+    const links = document.querySelectorAll(".header-left a");
+    console.log(links);
+    links.forEach(links => {
+        links.addEventListener("click", linksClickHandler);
+    });
+})(document);
+</script>
