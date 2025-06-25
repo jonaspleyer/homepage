@@ -303,6 +303,18 @@ th, td {
     .menu-item:hover {
         border-bottom: none;
     }
+
+    .menu-item {
+        border-bottom: none;
+    }
+
+    .menu-item.active {
+        border-bottom: none;
+    }
+
+    .menu-item.ancestor {
+        border-bottom: none;
+    }
 }
 
 .authorhead {
