@@ -1,10 +1,10 @@
 <div id="header" class="header">
     <div id="header-left" class="header-left">
-        <button id="toggle" class="toggle menu-item">
+        <div class="toogle-container"><button id="toggle" class="toggle menu-item">
             <div class="menu-button-line"></div>
             <div class="menu-button-line"></div>
             <div class="menu-button-line"></div>
-        </button>
+        </button></div>
         {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
     </div>
 

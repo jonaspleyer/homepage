@@ -280,9 +280,14 @@ th, td {
 }
 
 @media screen and (max-width:800px) {
+    .toggle-container {
+        position: relative;
+        display: none;
+    }
+
     .toggle {
         display: inline;
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         z-index: 2;
