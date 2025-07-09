@@ -24,6 +24,7 @@ Parameters
             minmax({{.context.Site.Params.post_min_width}}px, 1fr));
         );
         justify-content: center;
+        width: 100%;
         {{ if not (eq .rows nil)}}
             {{ printf "grid-template-rows:"}}
             {{ range $num:= (seq .rows)}}
