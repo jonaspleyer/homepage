@@ -12,7 +12,7 @@ description = "A no_std crate for a fixed-size statically allocated ring-buffer 
 A `no_std` crate for a fixed-size statically allocated ring-buffer with optional serde
 (De)-Serialization.
 
-{{< highlight Rust "linenos=table" >}}
+```Rust {linenos=table}
 use circ_buffer::RingBuffer;
 
 fn main() {
@@ -34,7 +34,7 @@ fn main() {
     assert_eq!(circ_buffer.len(), 4);
     assert_eq!(circ_buffer[0], 2);
 }
-{{< /highlight >}}
+```
 
 ## Motivation
 During my development of [`celluar_raza`](https://cellular-raza.com), I implemented various
