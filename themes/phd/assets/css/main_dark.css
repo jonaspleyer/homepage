@@ -326,3 +326,18 @@ th, td {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
+
+.highlight {
+    font-size: 13px;
+    padding: 0.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #242933;
+    border-radius: 5px;
+    max-width: 50em;
+    overflow-x: scroll;
+}
+
+code, pre, tt, kbd, samp {
+  font-family: "Noto Sans Mono", monospace;
+}
