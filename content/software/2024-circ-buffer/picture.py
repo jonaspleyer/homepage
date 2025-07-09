@@ -41,7 +41,7 @@ ax.text(
     0,
     0,
     "circ_buffer",
-    fontsize="xx-large",
+    fontsize=30,
     horizontalalignment="center",
     verticalalignment="center",
 )
@@ -50,5 +50,5 @@ ax.set_xlim((-10, 10))
 ax.set_ylim((-10, 10))
 ax.set_axis_off()
 
-fig.savefig("circ-buffer-scheme.png")
+fig.savefig("circ-buffer-scheme.png", transparent=True)
 plt.show()
