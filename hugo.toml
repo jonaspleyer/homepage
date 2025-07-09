@@ -93,6 +93,10 @@ fa_class = "fa fa-rss-square"
 email = "jonas.dev@pleyer.org"
 name = "Jonas Pleyer"
 
+[markup.highlight]
+style="nordic"
+tabWidth = 4
+
 # Allows for rendering raw html
 [markup.goldmark.renderer]
 unsafe = true
