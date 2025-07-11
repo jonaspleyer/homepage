@@ -5,7 +5,7 @@ post_image = "turing-pattern.png"
 post_image_display = false
 link = "https://doi.org/10.3389/fphy.2022.968409"
 link_display = "doi.org/10.3389/fphy.2022.968409"
-tags = ['paper','mini-review']
+tags = ['Paper', 'Science']
 description = "This mini-review discusses agent-based models as modeling techniques for studying pattern formation of multi-cellular systems in biology."
 +++
 

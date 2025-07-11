@@ -2,7 +2,7 @@
 title = 'Scientific Computing in Rust 2023'
 date = 2023-05-22T10:04:00+02:00
 post_image = "ferris-scientific-computing-1536x1147.png"
-tags = ['Math', 'Programming', 'Science']
+tags = ['Rust', 'Science', 'Programming']
 aliases = ['/blog/2023/07/19/scientifc-computing-in-rust-2023']
 +++
 

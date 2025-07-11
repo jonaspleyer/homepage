@@ -2,7 +2,7 @@
 title = 'My Linux Experience'
 date = 2023-03-12T01:07:00+02:00
 post_image = "33718-1-cropped.jpg"
-tags = ['Programming', 'Science']
+tags = ['Programming']
 aliases = ['/blog/2023/03/12/my-linux-experience/']
 +++
 

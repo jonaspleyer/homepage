@@ -2,7 +2,7 @@
 title = 'Physics of Life Conference'
 date = 2023-03-31T11:54:00+02:00
 post_image = "physics-of-life-logo-cropped.jpg"
-tags = ['Biology', 'Math', 'Science', 'Physics']
+tags = ['Science', 'Biology', 'Math', 'Physics']
 # TODO
 description = "I was at the physics of life conference this week"
 aliases = ['/blog/2023/03/31/physics-of-life-conference/']

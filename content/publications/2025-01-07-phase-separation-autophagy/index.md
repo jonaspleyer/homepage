@@ -4,7 +4,7 @@ date = 2025-01-07
 link = "https://doi.org/10.1038/s41556-024-01572-y"
 link_display = "doi.org/10.1038/s41556-024-01572-y"
 post_image = "model.png"
-tags = ['science']
+tags = ['Paper', 'Science', 'Biology']
 description = "We constructed a model which could qualitatively display how high/low affinities between autophagy receptors lead to phase separation on the surface of the cargo, thus ultimately  inducing selective autophagy."
 +++
 

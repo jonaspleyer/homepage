@@ -4,7 +4,7 @@ date = 2025-06-10
 link = "https://joss.theoj.org/papers/10.21105/joss.07723"
 link_display = "10.21105/joss.07723"
 post_image = "cells_at_iter_0000060200.png"
-tags = ['software']
+tags = ['Paper', 'Science', 'Rust']
 description = " How does individual behavior of cells lead to collective emergent phenomena: In our paper \"cellular_raza: Cellular Agent-based Modeling from a Clean Slate\", we publish a new agent-based simulation framework to model and study a variety of such cellular systems."
 +++
 

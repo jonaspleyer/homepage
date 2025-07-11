@@ -2,7 +2,7 @@
 title = 'iGEM 2023'
 date = 2023-05-13T20:36:00+02:00
 post_image = "IGEM_logo.png"
-tags = ['Biology', 'Math', 'Science']
+tags = ['Science', 'Biology']
 aliases = ['/blog/2023/05/13/igem-2023/']
 +++
 

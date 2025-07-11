@@ -4,7 +4,7 @@ date = 2021-07-09
 link = "https://doi.org/10.48550/arXiv.2411.15264"
 link_display = "doi.org/10.48550/arXiv.2411.15264"
 post_image = "TOV-Exponents-LESubs-InitialVals-Database-PlotResults-Combo.svg"
-tags = ['science','thesis']
+tags = ['Thesis', 'Science']
 description = "My master thesis analyzed the zero-values of the TOV equation. It describes the density profile of general-relativistic spherically symmetrical stellar objects."
 +++
 
