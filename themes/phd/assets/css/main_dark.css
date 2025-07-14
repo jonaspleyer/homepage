@@ -130,8 +130,11 @@ body {
     font-family: var(--font-family);
 }
 
-.header {
+header {
     overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .menu-item {
