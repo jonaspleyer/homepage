@@ -5,6 +5,7 @@ link = "https://github.com/jonaspleyer/approx-derive"
 link_display = "github.com/jonaspleyer/approx-derive"
 tags = ['Rust']
 post_image = "image.png"
+post_image_display = false
 description = "Provides derive macros for the popular approx crate. Approxim is a fork of approx which includes additional functionality."
 +++
 
