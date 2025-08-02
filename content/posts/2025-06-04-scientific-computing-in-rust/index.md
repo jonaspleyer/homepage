@@ -10,5 +10,9 @@ tags = ['Rust', 'Science', 'Programming']
 +++
 
 I gave a talk at the Scientific Computing in Rust conference.
+The talk presented my motivation for creating a novel simulation framework `cellular_raza`, some
+details of the implementation and applications to different problems.
+You can find the slides at
+[cellular-raza.com/publications/](https://cellular-raza.com/publications/).
 
 {{< youtube 3q40ozzQ6gE >}}
