@@ -36,3 +36,8 @@ But not with this team.
 The enthusiasm and pragmatic “we can and will do it” mentality of these young spirits is second to none.
 I was able to not only witness the great achievements of this team but also their character developing and adapting under an extremely pressuring time schedule.
 Employers watch out for these guys!
+
+{{< figure
+    src = "jonas-ipad-writing.jpg"
+    alt = "Jonas writing on an iPad"
+>}}
