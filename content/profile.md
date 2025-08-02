@@ -34,7 +34,7 @@ only_content = true
 # Conferences
 |    |    |    |
 | -- | -- | -- |
-| 2025 | [Scientific Computing in Rust]() | Talk |
+| 2025 | [Scientific Computing in Rust](/posts/2025-06-04-scientific-computing-in-rust) | Talk |
 | 2024 | [Small Data Symposium](https://www.smalldata-initiative.de/news-events/smalldata-symposium-2024/) | Attendance |
 | 2024 | [Self-Organization in Biology: Freiburg Spemann-Mangold Centennial Symposium](https://www.cibss.uni-freiburg.de/news-and-events/event/event-details/100y-spemann-mangold) | Shared Poster |
 | 2024 | [SFB 1381 Retreat](https://www.sfb1381.uni-freiburg.de/) | Shared Poster |
