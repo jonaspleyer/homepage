@@ -4,7 +4,7 @@
         <img class="post-image-inline" src="{{ .Params.post_image }}">
     {{ end }}
     {{ if not .Params.only_content }}
-        <div style="margin: {{ .Site.Params.site_margins }}px;">
+        <div>
             <h1>{{ .Title }}</h1>
             {{ if not .Params.hide_metadata }}
             {{ partial "metadata.html" . }}
