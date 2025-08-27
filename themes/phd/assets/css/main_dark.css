@@ -201,11 +201,10 @@ img {
 .post_image {
     object-fit: contain;
     transition: opacity .35s , transform .35s;
-    transform: scale3d(1.02, 1.02, 2.0);
 }
 
 .post_image:hover {
-    transform: scale3d(1,1,1);
+    transform: scale3d(1.02,1.02,1.02);
     opacity: 0.8;
 }
 
