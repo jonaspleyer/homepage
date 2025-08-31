@@ -16,7 +16,6 @@ Today, this project has grown a lot and celebrates its 3rd birthday.
 
 As you can see from my initial commit, the first iteration was just a simple
 [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
-Fast-forwarding
 
 ```text
 commit d2c9464b4bd5a5ee19a2c247069865f7a6d6c5b9
