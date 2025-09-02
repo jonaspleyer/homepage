@@ -4,6 +4,7 @@ date = 2025-09-01
 description = "I am very sceptical about the usgae of LLMs. In this post, I explore some of my own experiences with using ChatGPT to assist me in writing academic texts."
 post_image = "ChatGPT_logo.png"
 tags = ['Science', 'Paper']
+draft = true
 mermaid = true
 +++
 
