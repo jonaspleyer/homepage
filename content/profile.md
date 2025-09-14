@@ -21,6 +21,7 @@ only_content = true
 
 |      |    |    |
 | ---- | -- | -- |
+| 2025 WS | [Mathematik II für Studierende der Physik](https://www.physik.uni-freiburg.de/studium/vorlesungsverzeichnis/kmvrlw25.htm#MP2) | Tutor |
 | 2024 WS | [Mathematik II für Studierende der Physik](https://www.physik.uni-freiburg.de/studium/vorlesungsverzeichnis/kmvrlw24.htm#MP2) | Tutor |
 | 2024 SS | [Theoretische Physik 3](https://www.physik.uni-freiburg.de/studium/vorlesungsverzeichnis/kmvrls24.htm#Theo_III) | Tutor |
 | 2023 WS | [Experimentalphysik 1](https://www.physik.uni-freiburg.de/studium/vorlesungsverzeichnis/kmvrlw23.htm#Ex_I) | Tutor |
@@ -34,6 +35,7 @@ only_content = true
 # Conferences
 |    |    |    |
 | -- | -- | -- |
+| 2025 | [Theory of Living Systems](https://www.cibss.uni-freiburg.de/news-and-events/event/event-details/theory%20of%20living%20systems%20symposium%202025) | Attendance |
 | 2025 | [Scientific Computing in Rust](/posts/2025-06-04-scientific-computing-in-rust) | Talk |
 | 2024 | [Small Data Symposium](https://www.smalldata-initiative.de/news-events/smalldata-symposium-2024/) | Attendance |
 | 2024 | [Self-Organization in Biology: Freiburg Spemann-Mangold Centennial Symposium](https://www.cibss.uni-freiburg.de/news-and-events/event/event-details/100y-spemann-mangold) | Shared Poster |
