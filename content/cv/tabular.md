@@ -5,20 +5,22 @@ only_content = true
 description = "Short CV in Tabular Form"
 +++
 
-<style>
-h1,h2,h3 {
-    padding-bottom: 8px;
-    margin-bottom: 8px;
-    border-bottom: solid 1px var(--color-border-post);
-}
-</style>
+{{< wrap >}}
+{{% authorhead img="/images/JonasPleyer-edited.jpeg" %}}
+# Jonas Pleyer
+[jonas.pleyer.org](/) | [github.com/jonaspleyer](https://github.com/jonaspleyer/) |
+[jonas.dev@pleyer.org](mailto:jonas.dev@pleyer.org)
+{{% /authorhead %}}
+{{< /wrap >}}
 
-I am a software engineer trapped in the career of a scientist, always aiming to extend existing
-functionality or to write new libraries.
-I care about functionality, quality and team spirit.
-To me, any temporary solution is undesirable.
+{{% section title = "Profile" %}}
 
-## Experience
+Software engineer and computational scientist with expertise in Rust and Python.
+I build high-quality software for scientific computing and contribute actively to the Rust
+open-source ecosystem.
+I enjoy working in teams that emphasize reliability and correctness and use excellent tooling.
+
+{{% section title = "Experience" %}}
 
 {{< wrap >}}{{% entry
     title = "Doctoral Candidate"
@@ -28,33 +30,42 @@ To me, any temporary solution is undesirable.
     style = "background:#344A9A;"
 %}}
 
-- Development and Implementation of novel agent-based simulation framework cellular_raza in Rust
-    - Induced more development in the broader Rust ecosystem
-- Applications in cell-based systems; bacterial branching patterns, mechanics of rod-shaped bacteria
-- Theoretical methods for individual-based numerical simulation frameworks
+- Study of cellular systems via computational models
+- Developed and maintained cellular_raza, an agent-based simulation framework
+- Contributed to the open-source Rust ecosystem
+- Published peer-reviewed software and scientific papers and reviewed papers
 
 {{% /entry %}}{{< /wrap >}}
 
 <br>
 
 {{< wrap >}}{{% entry
-    title = "Tutor"
+    title = "Research Assistant - Tutor"
     employer = "University of Freiburg"
     location = "Freiburg im Breisgau"
     date = "since 04/2020"
     style = "background:linear-gradient(to top, #5D6BAD, #344A9A);"
 %}}
 
-- Lectures: Elementargeometrie, Analysis I, Analysis II, Analysis III, Einführung in die
-  Systembiologie, Experimentalphysik I, Theoretische Physik III, Höhere Mathematik II
-- Preparation and correction of mandatory work sheets and exams, lecture substitute for Prof.
+- Weekly tutorials in Physics, Mathematics and Systems Biology, exams, lectures (see
+  [profile](/profile))
 
 {{% /entry %}}{{< /wrap >}}
 
+{{< wrap >}}{{% entry
+    title = "Supervisor iGEM"
+    employer = "CIBBS, Freiburg"
+    location = "Freiburg im Breisgau"
+    date = "05/2023 - 09/2024"
+    style = "background: #00a19b;"
+%}}
+
+
+{{% /entry %}}{{< /wrap >}}
 <br>
 
 {{< wrap >}}{{% entry
-    title = "HiWi"
+    title = "Research Assistant - HiWi"
     employer = "Fraunhofer Institute ISE Freiburg"
     location = "Freiburg im Breisgau"
     date = "02/2020 - 04/2021"
@@ -75,16 +86,64 @@ To me, any temporary solution is undesirable.
     style = "background: #006BB8"
 %}}
 
-- Machine Learning, AI, Natural Language Processing, Python
+- Natural Language Processing, Data Analysis
 
 {{% /entry %}}{{< /wrap >}}
 
-## Skills
+{{% section title = "Education" %}}
 
-**Programming Languages:** Rust, Python, C++, C<br>
-**Other Tools:** $\LaTeX$, Typst, Github CI, Hugo
+{{< wrap >}}{{% entry
+    title = "University of Freiburg"
+    date = "since 08/2021"
+    style = "background: #344A9A"
+%}}
 
-## Selected Projects
+Doctoral Candidate (Computational Systems Biology)<br>
+MSc. Physics (Theoretical Physics & Mathematics),<br>
+_Thesis: “Zero Values of the TOV Equation” (Prof. Nadine Große)_
+
+{{% /entry %}}{{< /wrap >}}
+
+<br>
+
+{{< wrap >}}{{% entry
+    title = "University of Freiburg"
+    date = "since 08/2021"
+    style = "background: #cc0130"
+%}}
+
+MSc. Physics<br>
+Bsc. Physics<br>
+_Thesis: “About Topological Tunneling Configurations, the Anharmonic Oscillator<br>
+and the Functional Renormalization Group” (Prof. Jan Pawlowski)_
+
+{{% /entry %}}{{< /wrap >}}
+
+<br>
+
+{{< wrap >}}{{% entry
+    title = "Ottheinrich-Gymnasium, Wiesloch (High School)"
+    date = "09/2005-06/2013"
+    style = "background: #01699E"
+%}}
+{{% /entry %}}{{< /wrap >}}
+
+{{% section title = "Skills" comment = "In descending order of skill level" %}}
+
+<style>
+td, th {
+    border-bottom: none;
+    padding: 0;
+}
+</style>
+
+| | |
+| --- | --- |
+| **Programming Languages:** | Rust, Python, C++, C, Javascript, Bash |
+| **Development Tools:** | Git, GitHub Actions, Linux, Make, CMake, GitLab CI/CD |
+| **Documentation & Publishing:** | Hugo, Typst, LaTeX, Sphinx, HTML, CSS |
+
+{{% section title = "Selected Projects" %}}
 
 {{< wrap >}}{{% entry
     title = "cellular_raza"
@@ -140,7 +199,7 @@ It uses multiple technologies such as [cmake](https://cmake.org), [cxxbridge](ht
 and [WrapVTK](https://vtk.org) to automate boilerplate generation of the bindings.
 {{% /entry %}}{{< /wrap >}}
 
-## Education
+{{% section title = "Education" %}}
 
 {{< wrap >}}{{% entry
     title = "University of Freiburg"
@@ -178,11 +237,9 @@ and [WrapVTK](https://vtk.org) to automate boilerplate generation of the binding
     date = "09/2001 - 06/2005"
 %}}{{% /entry %}}{{< /wrap >}}
 
-## Publications
+{{% section title = "Publications" %}}
 
-## Further Commitment
-
-### iGEM
+{{% section title = "Further Commitment" %}}
 
 {{< wrap >}}{{% entry
     title = "Supervisor"
