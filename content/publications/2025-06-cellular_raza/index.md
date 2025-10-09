@@ -1,5 +1,5 @@
 +++
-title = 'cellular_raza'
+title = 'cellular_raza - Cellular Agent-based Modeling from a Clean Slate'
 date = 2025-06-10
 link = "https://joss.theoj.org/papers/10.21105/joss.07723"
 link_display = "10.21105/joss.07723"
