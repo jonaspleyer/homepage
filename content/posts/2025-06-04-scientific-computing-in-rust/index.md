@@ -6,7 +6,7 @@ post_image = "http://img.youtube.com/vi/3q40ozzQ6gE/maxresdefault.jpg"
 post_image_is_link = true
 post_image_display = false
 description="I gave a talk at the Scientific Computing in Rust conference."
-tags = ['Rust', 'Science', 'Programming']
+tags = ['Rust', 'Science', 'Programming', 'Conference']
 +++
 
 I gave a talk at the Scientific Computing in Rust conference.
