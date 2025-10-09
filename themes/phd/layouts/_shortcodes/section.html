@@ -1,0 +1,10 @@
+<div style="display: grid; grid-template-columns: auto 1fr;">
+    <h2 style="margin-bottom: 10pt; margin-top: 10pt; padding: 0;">
+        {{ .Get "title" }}
+    </h2>
+    <div style="margin-bottom: 12pt; margin-top: 10pt; margin-left: 7pt; width: 100%; border-bottom: 2px solid var(--color-border-post);"></div>
+</div>
+{{ with (.Get "comment" )}}
+<div style="margin-top: -5pt; font-size: 0.8em;">{{ . }}</div>
+{{ end }}
+
