@@ -107,7 +107,7 @@ _Thesis: “Zero Values of the TOV Equation” (Prof. Nadine Große)_
 <br>
 
 {{< wrap >}}{{% entry
-    title = "University of Freiburg"
+    title = "Heidelberg University"
     date = "since 08/2021"
     style = "background: #cc0130"
 %}}
@@ -199,45 +199,9 @@ It uses multiple technologies such as [cmake](https://cmake.org), [cxxbridge](ht
 and [WrapVTK](https://vtk.org) to automate boilerplate generation of the bindings.
 {{% /entry %}}{{< /wrap >}}
 
-{{% section title = "Education" %}}
-
-{{< wrap >}}{{% entry
-    title = "University of Freiburg"
-    employer = "Doctoral Candidate (Computational Systems Biology)"
-    date = "since 08/2021"
-%}}{{% /entry %}}{{< /wrap >}}
-
-{{< wrap >}}{{% entry
-    title = "University of Freiburg"
-    employer = "MSc. Physics"
-    date = "04/2020 - 07/2021"
-%}}{{% /entry %}}{{< /wrap >}}
-
-{{< wrap >}}{{% entry
-    title = "Heidelberg University"
-    employer = "MSc. Physics"
-    date = "04/2018 - 04/2020"
-%}}{{% /entry %}}{{< /wrap >}}
-
-{{< wrap >}}{{% entry
-    title = "Heidelberg University"
-    employer = "BSc. Physics"
-    date = "09/2013 - 03/2018"
-%}}{{% /entry %}}{{< /wrap >}}
-
-{{< wrap >}}{{% entry
-    title = "Ottheinrich-Gymnasium"
-    employer = "High School"
-    date = "09/2005 - 06/2013"
-%}}{{% /entry %}}{{< /wrap >}}
-
-{{< wrap >}}{{% entry
-    title = "Schillerschule Wiesloch"
-    employer = "Elementary School"
-    date = "09/2001 - 06/2005"
-%}}{{% /entry %}}{{< /wrap >}}
-
 {{% section title = "Publications" %}}
+
+See [publications](/publications).
 
 {{% section title = "Further Commitment" %}}
 
