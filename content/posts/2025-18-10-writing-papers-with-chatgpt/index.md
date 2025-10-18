@@ -1,10 +1,9 @@
 +++
 title = 'Writing Scientific Papers with ChatGPT'
-date = 2025-09-01
+date = 2025-10-18
 description = "I am very sceptical about the usgae of LLMs. In this post, I explore some of my own experiences with using ChatGPT to assist me in writing academic texts."
 post_image = "ChatGPT_logo.png"
 tags = ['Science', 'Paper']
-draft = true
 mermaid = true
 +++
 
@@ -124,8 +123,6 @@ This subtle change would probably not be detected by a hasty brush-over.
 But it might be recognized when writing the text explicitly by yourself (since you should be the
 expert after all).
 This further cemented [my principle](#my-principles).
-
-## Summarizing Papers
 
 ## Writing an Introduction
 I had written some notes for an introduction to a paper.
@@ -248,3 +245,9 @@ We as a human civilization have always known methods which can both inflict harm
 However, as history has shown us, it was always necessary to find some form of agreement which
 regulates the use of these tools, either between nations of between people to ensure order and avoid
 misuse.
+
+<br>
+
+_PS_ I recently saw this video
+https://www.youtube.com/watch?v=4ys3Z7_5nn8
+which really resonated with my own views.
