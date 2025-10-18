@@ -45,8 +45,9 @@ loop unrolling, etc. are not necessary since the compiler will mostly handle thi
 
 ## [Rendering at 1 Million Pixels / Millisecond with gpui](https://eurorust.eu/2025/talks/rendering-at-1-million-pixels-millisecond-with-gpui/)
 The final keynote of day 1 was a very memorable experience.
-The speaker, [Conrad Irwin](https://github.com/conradirwin) is known for many things but works on a
-novel code editor [zed](https://zed.dev/) which uses GPU acceleration to reach very fast speeds.
+The speaker, [Conrad Irwin](https://github.com/conradirwin) is known for many things but now works
+on a novel code editor [zed](https://zed.dev/) which uses GPU acceleration to reach very fast
+rendering speeds.
 His talk was a mixture of hist personal story and overcoming technical challenges and overall very
 inspiring.
 I am looking forward to testing out Zed in the future and am glad that there is a competitor for
