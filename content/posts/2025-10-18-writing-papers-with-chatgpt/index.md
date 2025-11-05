@@ -5,6 +5,7 @@ description = "I am very sceptical about the usgae of LLMs. In this post, I expl
 post_image = "ChatGPT_logo.png"
 tags = ['Science', 'Paper']
 mermaid = true
+aliases = ['/posts/2025-18-10-writing-papers-with-chatgpt/']
 +++
 
 <style>
