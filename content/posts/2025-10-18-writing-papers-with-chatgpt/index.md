@@ -249,6 +249,19 @@ misuse.
 
 <br>
 
-_PS_ I recently saw this video
+# Addendum
+
+_2025-10-18_<br>
+I recently saw this video
 https://www.youtube.com/watch?v=4ys3Z7_5nn8
 which really resonated with my own views.
+
+_2025-11-10_<br>
+I have found out that there were multiple incidents where ChatGPT played a key role in the
+suicide of teenagers and adults.
+
+- "Parents of teenager who took his own life sue OpenAI"
+  https://www.bbc.com/news/articles/cgerwp7rdlvo
+
+- "Parents sue San Francisco-based OpenAI over son's death after conversation with chatbot"
+  https://www.msn.com/en-us/news/crime/parents-sue-san-francisco-based-openai-over-son-s-death-after-conversation-with-chatbot/ar-AA1Q2gbH
