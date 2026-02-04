@@ -70,3 +70,8 @@ I guarded this functionality behind the `infer_name` feature which does not have
 when using with [approx](https://docs.rs/approx/latest/approx/).
 Although this crate exists, I hope that my solution for derive macros will be incorporated within
 `approx` at some point in the future.
+
+## Update (02/2026)
+I have now taken over maintainership from [brendanzab](https://github.com/brendanzab) for the
+[approx](https://crates.io/crates/approx) crate and will release the additional features in upcoming
+versions.
