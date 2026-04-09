@@ -1,6 +1,6 @@
 +++
 title = 'niri is great'
-date = 2026-04-01
+date = 2026-04-09
 post_image = "niri-logo.svg"
 tags = ['Science', 'Paper']
 link = "github.com/niri-wm/niri"
