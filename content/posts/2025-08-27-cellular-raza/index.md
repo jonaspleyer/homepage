@@ -3,6 +3,7 @@ title = 'cellular_raza - Happy Birthday'
 date = 2025-08-27T11:02:14+02:00
 post_image = "cellular_raza_dark_mode.png"
 description = "Today, my PhD project cellular_raza turns 3 years old. It is and has been a very enlightening journey. Let me elaborate .."
+tags = ['Science', 'Biology']
 +++
 
 My journey of using Rust as my primary programming language started with the inception of
