@@ -17,6 +17,14 @@ only_content = true
 {{% /authorhead %}}
 {{< /wrap >}}
 
+# Reviewer for
+
+| |
+|--|
+| [Journal of Open Source Software](https://joss.theoj.org/) |
+| [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/) |
+| [Royal Society](https://royalsociety.org/) |
+
 # Conferences
 |    |    |    |
 | -- | -- | -- |
