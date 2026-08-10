@@ -28,6 +28,7 @@ only_content = true
 # Conferences
 |    |    |    |
 | -- | -- | -- |
+| 2026 | [Scientific Computing in Rust](/posts/2026-07-09-scientific-computing-in-rust) | Talk |
 | 2025 | [EuroRust](https://eurorust.eu/) | Attendance |
 | 2025 | [Theory of Living Systems](https://www.cibss.uni-freiburg.de/news-and-events/event/event-details/theory%20of%20living%20systems%20symposium%202025) | Attendance |
 | 2025 | [Scientific Computing in Rust](/posts/2025-06-04-scientific-computing-in-rust) | Talk |
