@@ -62,7 +62,7 @@ only_content = true
 |    |    |
 | -- | -- |
 | Tel | +49(0)761 / 203 8442 |
-| E-Mail | [jonas.pleyer(at)fdm.uni-freiburg.de](mailto:jonas.pleyer(at)fdm.uni-freiburg.de) |
+| E-Mail | [jonas.sci(at)pleyer.org](mailto:jonas.sci(at)pleyer.org) |
 | Room Number | 113 |
 
 <!-- MARKDOWN SYNTAX FOR SAME TABLE
